@@ -44,82 +44,11 @@ telegram-reddit-monitor-bot/
 
 ---
 
-## Installation
+## Want this bot for your community?
 
-### 1. Prerequisites
+I can set this up for your subreddit, Telegram group, or any custom use case.
 
-- Python 3.11 or higher
-- A Telegram account
-- Git (optional)
-
-### 2. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/telegram-reddit-monitor-bot.git
-cd telegram-reddit-monitor-bot
-```
-
-### 3. Create a virtual environment
-
-```bash
-python -m venv venv
-
-# macOS / Linux
-source venv/bin/activate
-
-# Windows
-venv\Scripts\activate
-```
-
-### 4. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Create a Telegram Bot
-
-1. Open Telegram and search for **@BotFather**
-2. Send `/newbot`
-3. Choose a **name** (e.g. `Reddit Monitor`)
-4. Choose a **username** ending in `bot` (e.g. `my_reddit_monitor_bot`)
-5. BotFather will reply with your **bot token** — copy it, you'll need it next
-
----
-
-## Configuration
-
-Copy the example env file and fill in your values:
-
-```bash
-cp .env.example .env
-```
-
-Open `.env` and set:
-
-```env
-TELEGRAM_BOT_TOKEN=123456789:ABCDefGhIJKlmNoPQRsTUVwxyZ   # from BotFather
-CHECK_INTERVAL=180                                          # seconds between checks (180 = 3 min)
-```
-
----
-
-## Running the Bot
-
-```bash
-python bot.py
-```
-
-You should see:
-
-```
-2026-01-01 12:00:00 | INFO     | __main__ — Starting Reddit Monitor Bot…
-2026-01-01 12:00:01 | INFO     | __main__ — Bot is running. Check interval: 180s. Press Ctrl+C to stop.
-```
-
-Open Telegram, find your bot, and send `/start`.
+👉 **[Order on Fiverr](https://www.fiverr.com/YOUR_GIG_URL)**
 
 ---
 
